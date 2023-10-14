@@ -805,8 +805,8 @@ ul {
   font-weight: 400;
   color: #8e8f99;
   letter-spacing: 0.04em;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 .check-text a {
