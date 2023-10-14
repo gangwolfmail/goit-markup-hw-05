@@ -586,6 +586,9 @@ ul {
   padding: 8px 16px;
   color: #fff;
   font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-input::placeholder {
@@ -652,6 +655,7 @@ ul {
   width: 408px;
   height: 584px;
   background-color: #fcfcfc;
+  margin-bottom: 8px;
   border-radius: 4px;
   position: absolute;
   top: 50%;
@@ -709,7 +713,7 @@ ul {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .modal-input {
@@ -787,12 +791,11 @@ ul {
 }
 
 .check-text {
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 12px;
   line-height: 1.17;
   font-weight: 400;
   color: #8e8f99;
-  line-height: 1.33;
   letter-spacing: 0.04em;
   display: flex;
   align-items: center;
@@ -806,7 +809,7 @@ ul {
 .check-span-link {
   display: inline-flex;
 }
-.check-text span {
+/* .check-text span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -815,7 +818,7 @@ ul {
   border-radius: 2px;
   margin-right: 8px;
   fill: transparent;
-}
+} */
 
 .check-input:checked + .check-text span {
   background-color: #404bbf;
