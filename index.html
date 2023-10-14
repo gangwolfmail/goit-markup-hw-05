@@ -479,8 +479,8 @@
           <div class="modal-field">
             <label for="user-text" class="modal-label">Comment</label>
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-text"
               placeholder="Text input"
             ></textarea>
@@ -488,7 +488,8 @@
           <div class="modal-field">
             <input
               type="checkbox"
-              name="modal-chek"
+              value="true"
+              name="user-privacy"
               id="modal-chek"
               class="check-input visually-hidden"
             />
@@ -497,7 +498,7 @@
                 ><svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg></span
               >I accept the terms and conditions of the&nbsp;
-              <a href="">Privacy Policy</a></label
+              <a href="" class="check-span-link">Privacy Policy</a></label
             >
           </div>
           <button class="check-btn" type="submit">Send</button>
