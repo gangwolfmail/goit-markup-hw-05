@@ -699,6 +699,10 @@ ul {
 .modal-btn:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.modal-btn:hover + .modal-btn-icon,
+.modal-btn:focus + .modal-btn-icon {
   fill: #ffffff;
 }
 
@@ -867,4 +871,5 @@ ul {
 .check-btn:hover,
 .check-btn:focus {
   background: #404bbf;
+  fill: #ffffff;
 }
